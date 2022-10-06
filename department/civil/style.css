@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+
+}
+
+html{
+    background-color: #470d0d;
+}
+
+#image{
+    width: 60%;
+}
+
+#container{
+    margin: 20px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    /* border: red solid 2px; */
+    
+    overflow: auto;
+
+    
+
+}
+
+#container-2-logo{
+    /* border: black solid 2px; */
+    /* display: inline-block; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    /* border-radius: 30px; */
+    padding: 10px;
+    margin: 0 auto 30px auto;
+        
+
+    
+}
+
+#container-3-subject{
+    /* grid-row: 2/3; */
+    /* border: blue solid 2px; */
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+#container-4-subList{
+    border: white solid 2px;
+    padding: 15px 0 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* gap: 10px; */
+    color: #490505;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+button{
+    margin: 20px;
+    background-color: #490505;
+    margin-top: 50px;
+    background:  #ffffff;
+    border-radius: 20px;
+    color: #490505;
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+button:hover{
+    background-color:rgb(91, 8, 13);
+    color: rgb(247, 242, 242);   
+}
+
+
+@media only screen and (max-width: 800px){
+    button{
+        margin-top: 10px;
+        font-size: 1.4rem;
+        padding: 10px;
+        top: 0;
+    } 
+}
+
+
