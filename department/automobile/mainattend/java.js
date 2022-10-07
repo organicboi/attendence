@@ -1,14 +1,14 @@
-let text = "";
+// let text = "";
 
-for ( let i=1 ; i < 151;i++){
-    text += `<label class="label"
-    > ${i}
-    <input id="input" type="checkbox" />
-    <span class="checkmark"></span>
-  </label>`;
-}
+// for ( let i=1 ; i < 151;i++){
+//     text += `<label class="label"
+//     > ${i}
+//     <input id="input" type="checkbox" />
+//     <span class="checkmark"></span>
+//   </label>`;
+// }
 
-document.getElementById("container-1").innerHTML = text;
+// document.getElementById("container-1").innerHTML = text;
 
 
 
