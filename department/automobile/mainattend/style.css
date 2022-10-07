@@ -14,13 +14,13 @@
 
 }
 
-#main-container >div {
+#maincontainer >div {
     display: flex;
     flex-direction: row;
     grid-gap: 4px;
 }
 
-#main-container > div{
+#maincontainer > div{
     padding: 10px;
     display: grid;
 
@@ -42,7 +42,12 @@
     justify-content: center;
     outline: none;
   }
+#department{
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
 
+}
 .label{
     color: brown;
     font-size: 25px;

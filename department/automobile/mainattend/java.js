@@ -19,6 +19,22 @@ document.getElementById("container-1").innerHTML = text;
 
 
 
+var button = document.getElementById("button");
+var makepdf = document.getElementById("maincontainer");
+
+button.addEventListener("click", function () {
+    html2pdf().from(maincontainer).save(`Compiler Design ${document.getElementById("date").value = Date()}`);
+});
+
+
+
+
+
+
+
+
+
+
 
 
 
